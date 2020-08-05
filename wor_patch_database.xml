@@ -17,4 +17,17 @@
             </file>
         </files>
     </patch_pack>
+        <patch_pack build_min="19041" build_max="19042">
+        <memory_limit>0</memory_limit>
+        <files>
+             <file name="Windows\System32\winload.efi">
+                <data>e003142afd7b44a9 000080d2fd7b44a9</data>
+                <expected_sections>1</expected_sections>
+            </file>
+            <file name="Windows\System32\ntoskrnl.exe">
+                <data>ea000037e8630091 ea000036e8630091 0037e8430091e1 0036e8430091e1 0037e8430091e1 0036e8430091e1</data>
+                <expected_sections>3</expected_sections>
+            </file>
+        </files>
+    </patch_pack>
 </wor_patch_database>
